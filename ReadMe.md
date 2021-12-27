@@ -11,10 +11,11 @@ for Hiring Managers of future employers.
 - CSS
 
 ## ScreenShot of website
-![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\portfolio)
-![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\portfolio2)
+![portfolio](https://user-images.githubusercontent.com/94805706/147440417-a98ba6e5-9c13-44e9-b15e-16b8b2e1e1e0.jpg)
+![portfolio2](https://user-images.githubusercontent.com/94805706/147440433-06e0bdf2-b74f-40d2-88bf-4f57b3a94988.jpg)
 
 ## Resources
+
 - W3schools.com
 - netninjas.com
 
