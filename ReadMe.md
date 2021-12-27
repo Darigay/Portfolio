@@ -11,7 +11,7 @@ for Hiring Managers of future employers.
 - CSS
 
 ## ScreenShot of website
-![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\portfolio1)
+![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\portfolio)
 ![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\portfolio2)
 
 ## Resources
