@@ -2,76 +2,100 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divya Arigay</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya Arigay</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
-    <!--Navigation Section-->
-      <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="#AboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#Projects">Projects</a>
-                </li>
-                <li> 
-                    <a href="#technologies">Technologies </a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-      </nav>
-     <!--home section -->
-      <section id="home">
-        <div class="main">
-            <h1><span>Divya Arigay</span></h1>
-            <span class="Description">Full Stack Developer</span>
-            <a class="btn" href="#">Hire Me</a>
-        </div>
-      </section>
+  <!--Navigation Section-->
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="#aboutme">AboutMe</a>
+      </li>
+      <li>
+        <a href="#p#rojects">Projects</a>
+      </li>
+      <li>
+        <a href="#technologies">Technologies </a>
+      </li>
+      <li>
+        <a href="#contact-section">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!--home section -->
+  <section id="home">
+    <div class="main">
+      <h1><span>Divya Arigay</span></h1>
+      <span class="Description">Full Stack Developer</span>
+      <a class="btn" href="#">Hire Me</a>
+    </div>
+  </section>
 
-      <!--About ME Section -->
-      <div class="about-container">
-          <!--image-->
-          <img src="assets/images/divya.jpg">
-          <!-- About Text-->
-          <div class="about-text">
-            <p> About Me </p> 
-            <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem harum dolore beatae, temporibus eligendi ducimus repellendus? Quos quaerat optio consectetur,
-                   obcaecati ipsa dolorem, blanditiis fugit placeat ratione veniam tempore.
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem harum dolore beatae, temporibus eligendi ducimus repellendus? Quos quaerat optio consectetur,
-                   obcaecati ipsa dolorem, blanditiis fugit placeat ratione veniam tempore.
-            </p>
-            <button> Download CV </button>
-          </div>
-      </div>
+  <!--About ME Section -->
+  <div class="aboutme" id="aboutme">
+    <!--image-->
+    <img src="assets/images/divya.jpg">
+    <!-- About Text-->
+    <div class="about-text">
+      <p> About Me </p>
+      <p> I'm a full stack developer located in Utah. I have a serious passion for web development.
+          Creating intuitive dynamic user experience.        
+      I am a well organised person, hardworking problem solver, with high attention to detail.
+      A family person and a mother of two kids.</p>
+    
+      <button> Download CV </button>
+    </div>
+  </div>
 
-      <!--Projects-->
-      <div class="projects">
-        <div class="projects-text">
-          <p> projects</p>
-          <p> runbuddy </p>  
-        </div>
-      </div>
-      <!--Technologies-->
-      <div class="technologies">
-        <div class="technologies-text">
-          <p> Technologies</p>
-          <p> HTML  CSS  JS </p>  
-        </div>
-      </div>
+  <!--Projects-->
+  <div class="projects" id="projects">
+    <div class="projects-text">
+      <p> projects</p>
+      <i class="fas fa-anchor"></i>
+      <i class="fas fa-puzzle-piece"></i>
+      <i class="fas fa-question-circle"></i>
+    </div>
+  </div>
 
-      
-   
-   <footer>
-       
-   </footer>
+
+  <!--Technologies-->
+  <div class="technologies" id="technologies">
+    <div class="technologies-text">
+      <p> Technologies</p>
+      <p> HTML CSS JS </p>
+      <i class="fab fa-css3"></i>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-js"></i>
+    
+    </div>
+  </div>
+
+  <!--contact section form -->
+  <div class="contact-section" id="contact-section">
+    <div class="contact-info">
+      <div><i class="fas fa-map-marker-alt"></i>Address, City, Country </div>
+      <div><i class="fas fa-envelope"></i>contact@email.com</div>
+      <div><i class="fas fa-phone"></i>+00 0000 000 000 </div>
+      <div><i class="fas fa-clock"></i>Mon-Fri 8.00 AM to 5.00 PM</div>
+      </div>
+    <div class="contact-form">
+      <h2> Contact Me</h2>
+      <form class="contact" action="" method="">
+        <input type="text" name="name" class="text-box" placeholder="your Name" required>
+        <input type="email" name="email" class="text-box" placeholder="your Email" required>
+        <textarea name="message" rows="5" placeholder="your message" required></textarea>
+        <input type="submit" name="submit" class="send-btn" value="send">
+      </form>
+    </div>
+  </div>
+
+  
 </body>
 
 </html>

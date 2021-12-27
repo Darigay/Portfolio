@@ -1,15 +1,18 @@
 # 01 Portfolio
 
-## Usage
+## Description:
+personal portfolio to be used in various platforms , which best describes me.
 
+## Usage
+for Hiring Managers of future employers.
 
 ## Technologies
 - HTML
 - CSS
 
 ## ScreenShot of website
-
-
+![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\portfolio1)
+![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\portfolio2)
 
 ## Resources
 - W3schools.com
