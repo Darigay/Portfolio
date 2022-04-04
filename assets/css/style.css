@@ -162,7 +162,7 @@ justify-content: center;
     line-height:40px ;
 }
 .about-text p:nth-child(2){
-    color:rgb(16, 17, 15);
+    color:rgb(20, 83, 120);
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size: 20px;
@@ -187,35 +187,77 @@ justify-content: center;
    }
 
    /* Projects*/
-.projects, .technologies{
+.projects {
     flex-wrap: wrap;
-    width:45%;
+    /* height:350px; */
+    margin-left:50px;
+    background-color: #dbe8eb;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* display: inline-block;  */
+    /* padding:25px; */
+    /* float:left; */
+    }
+
+    .technologies {
+
+    width:95%;
+    margin-top: 50px;
+    /* flex-wrap: wrap; */
     height:350px;
     margin-left:50px;
     background-color: #dbe8eb;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    display: inline-block;
+    display: inline-block; 
     float:left;
-    }
+    margin-bottom: 50px;
+   
 
-.projects-text p:nth-child(1){
+   }
+
+ .projects-text p{
    
     color:sienna;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     line-height:40px ;
     text-align: center;
     padding-top: 20px;
 }
 
+.projects img {
+    width:150px;
+    height:100px;
+
+}
+
+.projects a {
+    display:flex;
+    align-items: center;
+    width:15%;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* justify-content: center; */
+    
+    /* flex-direction: row; */
+}
+
+
+/*
 .fas{
     color:#0d857b;
     font-size:6em;
     padding: 20px 20px 20px 20px;
     margin-left: 50px;    
-}
+} */
 
 
 
@@ -230,31 +272,36 @@ justify-content: center;
     text-align: center;
     padding-top: 20px;
 }
-.technologies-text p:nth-child(2){
-    color:sienna;
+.technologies-text h1 {
+    color:rgb(20, 83, 120);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 25px;
     line-height:30px ;
     text-align: center;
+   
     }
-    .fab{
+    /* .fab{
     color:#f05627;
     font-size: 6em;
     padding: 20px 20px 20px 20px;
     margin-left: 50px;   
-    }
+    } */
 
 /* Contact-section-footer*/
+
 .contact-section{
-    width:80%;
+    /* margin-top: 300px; */
+    width:95%;
     background-color: #dbe8eb;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     display:flex;
-    margin:auto;
-    margin-top: 400px;
+    /* margin:auto; */
+    /* margin-top: 400px; */
     padding-top: 20px;
+    margin-left: 50px;
        
 }
 
@@ -276,10 +323,7 @@ justify-content: center;
     margin-right: 50px;
     align-items: center;
  }
- /*.contact-info,.contact-form{
-     flex:1;
- }*/
-
+ 
 .contact-form h2{
     color:rgb(129, 53, 53);
     text-align:left;
