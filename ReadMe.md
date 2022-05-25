@@ -1,10 +1,15 @@
 # 01 Portfolio
 
+## GitHub Page
+
 ## Description:
-personal portfolio to be used in various platforms , which best describes me.
+A portfolio is a great way to showcase my experience. It increases the chance of getting hired. 
+Portfolio website is designed using only HTML, CSS & a few lines of simple JavaScript.
 
 ## Usage
-for Hiring Managers of future employers.
+Portfolio is presented with Home page which has a interactive navigational bar with 
+About me, projects, technogolies and Contact senction.
+Portfolio gives a better understanding for Hiring Managers.
 
 ## Technologies
 - HTML
@@ -12,12 +17,9 @@ for Hiring Managers of future employers.
 - JS
 
 ## ScreenShot of website
-![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\PF-Div1.png)
-![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\PF-Div2.png)
-![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\PF-Div3.png)
-![Divya Arigay](C:\Users\divya\Desktop\Divya\homework\Portfolio\PF-Div4.png)
 
-git add
+
+
 ## Resources
 
 - W3schools.com
@@ -25,7 +27,8 @@ git add
 - youtube.com
 
 ## contact
-You can contact me at divya.arigay@gmail.com
+Email: divya.arigay@gmail.com
+GitHub: Darigay
 
 ## contributors
 Starter code by U OF U Bootcamp and trilogy Education Services and Refactored by Divya Arigay
